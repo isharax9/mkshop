@@ -108,7 +108,7 @@
         <!--footer-->
 
         <div class="col-12 fixed-bottom d-none d-lg-block">
-            <p class="text-center">&copy; 2022 eShop.lk | All Right Reserved</p>
+            <p class="text-center">&copy; 2023 eShop.lk | All Right Reserved</p>
         </div>
 
         <!--footer end-->
