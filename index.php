@@ -37,27 +37,27 @@
                         </div>
                         <div class="col-6 ">
                             <label class="form-label ">First Name</label>
-                            <input type="text" class="form-control "/>
+                            <input type="text" class="form-control" id="f"/>
                         </div>
                         <div class="col-6 ">
                             <label class="form-label ">Last Name</label>
-                            <input type="text" class="form-control "/>
+                            <input type="text" class="form-control " id="l" />
                         </div>
                         <div class="col-12 ">
                             <label class="form-label ">Email</label>
-                            <input type="email" class="form-control "/>
+                            <input type="email" class="form-control " id="e" />
                         </div>
                         <div class="col-12 ">
                             <label class="form-label ">Password</label>
-                            <input type="password" class="form-control "/>
+                            <input type="password" class="form-control " id="p" />
                         </div>
                         <div class="col-6 ">
                             <label class="form-label ">Mobile</label>
-                            <input type="text" class="form-control "/>
+                            <input type="text" class="form-control " id="m" />
                         </div>
                         <div class="col-6 ">
                             <label class="form-label ">Gender</label>
-                            <select class="form-select ">
+                            <select class="form-select " id="g" >
                                 <?php
 
                                     require "connection.php";
@@ -81,7 +81,7 @@
                             </select>
                         </div>
                         <div class="col-12 col-lg-6 d-grid">
-                            <button class="btn btn-primary ">Sign Up</button>
+                            <button class="btn btn-primary " onclick="signUp();" >Sign Up</button>
                         </div>
                         <div class="col-12 col-lg-6 d-grid">
                             <button class="btn btn-dark " onclick="changeView();">Already Have an account? Sign In here</button>
