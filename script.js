@@ -16,12 +16,7 @@ function signUp(){
     var m = document.getElementById("m");
     var g = document.getElementById("g");
 
-    alert(f.value);
-    alert(l.value);
-    alert(e.value);
-    alert(p.value);
-    alert(m.value);
-    alert(g.value);
-
+    var form = new FormData;
+    
 }
 
