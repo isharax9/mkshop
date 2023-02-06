@@ -1,12 +1,14 @@
 .main-body{
-    background-image: url(resource/background-body.svg);
+    background-image: url(resource/background-body.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    
 }
 
 .logo{
-    background-image: url(resource/logo.svg);
+    background-image: url(resource/logo.png);
     height: 100px;
     background-size: contain;
     background-position: center;
@@ -19,8 +21,8 @@
 }
 
 @font-face {
-    font-family: "honey";
-    src: url(font/HoneyScript-Light.ttf);
+    font-family: "comic";
+    src: url(font/comic.ttf);
 }
 
 *{
@@ -29,8 +31,8 @@
 }
 
 .title1{
-    font-family: honey;
-    font-size: 30px;
+    font-family: "forte";
+    font-size: 40px;
     letter-spacing: 4px;
 }
 

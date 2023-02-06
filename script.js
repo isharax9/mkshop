@@ -1,10 +1,11 @@
 function changeView(){
 
-    var signUpBox = document.getElementById("signUpBox");
-    var signInBox = document.getElementById("signInBox");  
+    
+    var signInBox = document.getElementById("signInBox");
+    var signUpBox = document.getElementById("signUpBox");  
 
-    signUpBox.classList.toggle("d-none");
     signInBox.classList.toggle("d-none");
+    signUpBox.classList.toggle("d-none");
 }
 
 
@@ -17,6 +18,8 @@ function signUp(){
     var g = document.getElementById("g");
 
     var form = new FormData;
+    
+    form
     
 }
 

@@ -6,7 +6,7 @@
     <title>eShop</title>
     <link rel="stylesheet" href="bootstrap.css"/>
     <link rel="stylesheet" href="style.css"/>
-    <link rel="icon" href="resource/logo.svg"/>
+    <link rel="icon" href="resource/logo.png"/>
 </head>
 <body class="main-body">
     <div class="container-fluid vh-100 d-flex justify-content-center">
@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-12 logo "></div>
                 <div class="col-12 ">
-                    <p class="text-center title1 ">Hi Welcome to eShop</p>
+                    <p class="text-center title1 ">Hi Welcome to MK Store</p>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
         
         <div class="col-12 p-3 ">
             <div class="row">
-                <div class="col-6 d-none d-lg-block background"></div>
+                
                 <div class="col-12 col-lg-6" id="signUpBox">
                     <div class="row g-2">
                         <div class="col-12 ">
@@ -88,6 +88,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-12 col-lg-6 d-none" id="signInBox">
                     <div class="row g-2">
                         <div class="col-12">
@@ -114,7 +115,7 @@
                             <button class="btn btn-primary">Sign In</button>
                         </div>
                         <div class="col-12 col-lg-6 d-grid">
-                            <button class="btn btn-danger" onclick="changeView();">New to eShop? Join now</button>
+                            <button class="btn btn-danger" onclick="changeView();">New to Store? Join now</button>
                         </div>
                     </div>
                 </div>
@@ -126,7 +127,7 @@
         <!--footer-->
 
         <div class="col-12 fixed-bottom d-none d-lg-block">
-            <p class="text-center">&copy; 2023 eShop.lk | All Right Reserved</p>
+            <p class="text-center">&copy; 2023 mkstore.lk | All Right Reserved</p>
         </div>
 
         <!--footer end-->
