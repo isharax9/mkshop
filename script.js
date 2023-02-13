@@ -19,7 +19,14 @@ function signUp(){
 
     var form = new FormData;
     
-    form
+    form.append("f",f.value);
+    form.append("l",l.value);
+    form.append("e",e.value);
+    form.append("p",p.value);
+    form.append("m",m.value);
+    form.append("g",g.value);
+    
+    
     
 }
 
